@@ -1,6 +1,6 @@
 Name:           perl-HTML-FormatText-WithLinks-AndTables
 Version:        0.02
-Release:        3%{?dist}
+Release:        4%{?dist}
 Summary:        Converts HTML to Text with tables in tact
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -56,6 +56,9 @@ make test
 %{_mandir}/man3/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.02-4
+- Mass rebuild 2013-12-27
+
 * Thu Feb 21 2013 Peter Robinson <pbrobinson@fedoraproject.org> 0.02-3
 - Merge newer from F18, modernise SPEC
 
